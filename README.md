@@ -9,5 +9,8 @@ To run this project you need:
 - database - postgresql
 - queue - rabbitmq
 
+
+To run you need to install a database, rabbitmq, create users set passwords, and then perform **uwsgi --ini xch-faucet.ini**
+
 BTW:
 This is my first flask project, so, don't be harsh.
