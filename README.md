@@ -12,6 +12,8 @@ To run this project you need:
 
 To run you need to install a database, rabbitmq, create users set passwords, and then perform **uwsgi --ini xch-faucet.ini**
 
+
+
 Set star if you like it
 ![изображение](https://user-images.githubusercontent.com/82159969/172861331-183bd154-804a-4213-9455-1569b43a4d05.png)
 
