@@ -1,4 +1,4 @@
-# chiafaucet
+# Chia faucet
 This code used to run on chia.crypto-faucet.ml
 
 In total, my faucet makes more than 800 000 transaction.
