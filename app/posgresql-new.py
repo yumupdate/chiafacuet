@@ -11,12 +11,12 @@ DBHOST = "192.168.0.209"
 DBPORT = "5432"
 DB = "xch-faucet"
 DBUSER = "xch"
-DBPASS = "KJkldfv7efjHFUTFuj"
+DBPASS = "yourpasshere"
 
 working_queue_2k = "xch-faucet-2k-test"
 working_queue_100k = "xch-faucet-100k-test"
 mquser = 'xch-faucet'
-mqpass = 'HSDcc#$dsa'
+mqpass = 'yourpasshere'
 mqhost = "srv1.crypto-faucet.ml"
 mqport = 5672
 
