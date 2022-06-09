@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve myproject
+After=network.target
+
+[Service]
+User=xch
+Group=www-data
+WorkingDirectory=/home/xch/xch-faucet/app
+Environment="PATH=/home/xch/xch-faucet/bin"
+ExecStart=/home/xch/xch-faucet/bin/uwsgi --ini xch-faucet.ini
+
+[Install]
+WantedBy=multi-user.target

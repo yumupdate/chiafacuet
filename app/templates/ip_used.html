@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content -%}
+      {% if sent_amount -%}
+      {% else -%}
+    <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to Chia Faucet</h1>
+      <h2>This ip was already used, you have to wait, to claim again.</h2>
+         <h2>Payout fot this IP will be unlocked on {{unlock_date}} Etc/UTC</h2>
+        <h2><a href="https://www.google.ru/search?q=Gett.ga+Chia+Faucet">Out of claims? Visit our friends at Gett Chia!</h2>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+    {% endif %}
+{% endblock -%}

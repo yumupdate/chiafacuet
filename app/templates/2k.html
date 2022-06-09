@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to chia faucet claim!</h1>
+      <h2>Faucet cooldown time: 1 hour</h2>
+      <a href="#about" class="btn-get-started scrollto">Get started!</a>
+    </div>
+
+{% endblock %}
+
+{% block form %}
+            <form action="/2k" method="post" >
+              <input type="text" name="xch_wallet" placeholder="Enter your XCH wallet"> <input type="submit" value="Claim!" >
+            </form>
+{% endblock %}

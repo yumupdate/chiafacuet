@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to chia faucet!</h1>
+        <h2>Click on the Get started button, and enter your XCH wallet address down bellow!</h2>
+      <a href="#about" class="btn-get-started scrollto">Get started!</a>
+    </div>
+{% endblock %}
+{% block article -%}
+        <h2></h2>
+        <h3>Every new user of our faucet can claim 50,000 mojos one time.</h3>
+        <h3>After claim you'll receive a referral link, please share it everywhere, help others to leave zero XCH club.</h3>
+        <h3>And remember, the more you claim, the more we give.</h3>
+        <h2></h2>
+{% endblock -%}
+{% block form %}
+          <div class="col-lg-6">
+            <form action="/gift/{{ ref_id }}" method="post" >
+              <input type="text" name="xch_wallet" placeholder="Enter your XCH wallet"> <input type="submit" value="Claim!" >
+            </form>
+{% endblock %}

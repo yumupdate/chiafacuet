@@ -1,0 +1,8 @@
+wheel
+pika
+Flask
+flask-recaptcha
+psycopg2-binary
+uwsgi
+chia-blockchain
+geoip2
